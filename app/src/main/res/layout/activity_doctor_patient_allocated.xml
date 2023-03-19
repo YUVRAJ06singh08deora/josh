@@ -28,6 +28,7 @@
         android:textColorHint="#EBEBF5"
         android:layout_marginTop="9dp"/>
     <RelativeLayout
+        android:id="@+id/patientsinfo"
         android:layout_width="369dp"
         android:layout_height="86dp"
         android:layout_marginTop="18dp"
