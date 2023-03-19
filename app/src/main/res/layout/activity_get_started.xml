@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#15151F"
+    tools:context=".get_started">
+
+    <View
+        android:id="@+id/a_pngtreea_"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="45dp"
+        android:layout_marginTop="85dp"
+        android:background="@drawable/get_started" />
+    <TextView
+        android:id="@+id/welcome_to_"
+        android:layout_width="279dp"
+        android:layout_height="96dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="57dp"
+        android:layout_marginTop="446dp"
+        android:gravity="center_horizontal|center_vertical"
+        android:text="Welcome To the Josh"
+        android:textAlignment="center"
+        android:textColor="#fff"
+        android:textSize="32dp" />
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/get_startedbtn"
+        android:layout_width="201dp"
+        android:layout_height="58dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="94dp"
+        android:layout_marginTop="614dp"
+        android:background="@drawable/button"
+        android:clipToOutline="true">
+
+        <TextView
+            android:id="@+id/get_started"
+            android:layout_width="93dp"
+            android:layout_height="24dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="53dp"
+            android:layout_marginTop="17dp"
+            android:gravity="center_horizontal|center_vertical"
+            android:text="Get Started"
+            android:textColor="#fff" />
+    </RelativeLayout>
+
+</RelativeLayout>
